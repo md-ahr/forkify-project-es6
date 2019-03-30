@@ -17,8 +17,6 @@ import * as likeView from './views/likeView';
 */
 
 const state = {};
-window.state = state;
-
 
 /*
     // Search Controller Model
@@ -173,5 +171,3 @@ elements.recipe.addEventListener('click', e => {
         controlLikes();
     }
 });
-
-window.l = new List();
